@@ -12,3 +12,9 @@ end
 get '/' do
   File.read('_site/index.html')
 end
+get '/about' do
+  File.read('_site/about.html')
+end
+get '/:year/:month/:day/:title' do
+  File.read("_site/#{params[:year]}-#{params[:month]}-#{params[:day]}-#{params[:title]}.html")
+end
