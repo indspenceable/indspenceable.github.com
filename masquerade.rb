@@ -10,8 +10,7 @@ before do
 end
 
 get '/' do
-  File.read(Dir.glob('_site/*/*/*/*.html').last  )
-  
+  File.read('_site/index.html')
 end
 get '/about' do
   File.read('_site/about.html')
