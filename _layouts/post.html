@@ -4,6 +4,11 @@
     {% include nav.html %}
     <div id="content">
       {{ content }}
+      
+      <a href="{{post.permalink}}"> Permalink </a>
+      
+      {% include related_posts.html %}
+        
     </div>
   </body>
 </html>

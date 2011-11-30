@@ -29,4 +29,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  classifier
   rack-jekyll

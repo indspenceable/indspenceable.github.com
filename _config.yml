@@ -1,1 +1,2 @@
 exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, config.ru, masquerade.rb]
+lsi: true
