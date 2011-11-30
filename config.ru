@@ -1,2 +1,2 @@
 require './masquerade'
-run Sinatra::App
+run Sinatra::Application
