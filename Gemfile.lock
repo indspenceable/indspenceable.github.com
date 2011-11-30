@@ -1,33 +1,21 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    albino (1.3.3)
-      posix-spawn (>= 0.3.6)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
-    directory_watcher (1.4.1)
     fast-stemmer (1.0.0)
-    jekyll (0.11.0)
-      albino (>= 1.3.2)
-      classifier (>= 1.3.1)
-      directory_watcher (>= 1.1.1)
-      kramdown (>= 0.13.2)
-      liquid (>= 1.9.0)
-      maruku (>= 0.5.9)
-    kramdown (0.13.3)
-    liquid (2.3.0)
-    maruku (0.6.0)
-      syntax (>= 1.0.0)
-    posix-spawn (0.3.6)
     rack (1.3.5)
-    rack-jekyll (0.3.5)
-      jekyll
+    rack-protection (1.1.4)
       rack
-    syntax (1.0.0)
+    sinatra (1.3.1)
+      rack (~> 1.3, >= 1.3.4)
+      rack-protection (~> 1.1, >= 1.1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    tilt (1.3.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   classifier
-  rack-jekyll
+  sinatra
