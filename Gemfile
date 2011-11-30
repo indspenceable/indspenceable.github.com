@@ -1,4 +1,4 @@
 source :rubygems
 
 gem 'classifier'
-gem 'rack-jekyll'
+gem 'sinatra'
