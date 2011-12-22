@@ -16,7 +16,8 @@ get '/about' do
   File.read('_site/about.html')
 end
 get '/feed' do
-  File.read('_site/index.xml')
+  #File.read('_site/index.xml')
+  "Hello, world"
 end
 get '/:year/:month/:day/:title' do
   File.read("_site/#{params[:year]}/#{params[:month]}/#{params[:day]}/#{params[:title]}.html")
