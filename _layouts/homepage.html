@@ -1,0 +1,15 @@
+<html>
+  {% include header.html %}
+  <body>
+    <div id="column" style="width:720px; margin: auto">
+      {% include nav.html %}
+      <div id="content" class="main">
+        <h3>{{ site.posts.first.title }}</h3>
+        {{ site.posts.first.content }}
+      
+        <a href="{{site.posts.first.url}}"> Permalink </a>
+          
+      </div>
+    </div>
+  </body>
+</html>
