@@ -1,1 +1,4 @@
-Its a readme! this is a jekyll blog. I'm hosting it on heroku so yeah.
+My blog!
+
+* Hosted on github; domain is indspenceable.com
+* Essentially, it's pretty awesome.
