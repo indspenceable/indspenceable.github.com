@@ -1,1 +1,1 @@
-Its a readme! this is a jekyll blog. I'm hosting it on heroku so yeah.
+* Add disqus comments
