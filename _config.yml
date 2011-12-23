@@ -1,1 +1,1 @@
-exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, config.ru, masquerade.rb, _drafts, todo]
+exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, config.ru, masquerade.rb, _drafts, todo, _site]
