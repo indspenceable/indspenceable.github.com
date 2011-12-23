@@ -1,1 +1,1 @@
-exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, _drafts, todo, _site]
+exclude:  [ README.md, _drafts, todo.md, _site]
