@@ -3,7 +3,8 @@ layout: default
 title: About
 ---
 
-### About this blog
+### About
 
-This blog is the best blog of all. it really is.
-Here are some links [index](/)
+My name is _Danny Spencer_, and I am a software developer in _San Fransico_. Things I enjoy and thus plan on writing about: _programming/technology_, _board and or video games_, _music_ and most importantly _whatever strikes my fancy at that moment_. I do hope that you enjoy your time here.
+
+I do my very best to be rad whenever possible.
