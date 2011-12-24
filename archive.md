@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Index
+title: Archive
 ---
 
 ### Welcome to _indspenceable.com_
