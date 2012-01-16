@@ -3,7 +3,7 @@ layout: post
 title: Heroku Migration Issue
 ---
 
-Just ran into a rather silly problem. I'm using Heroku to host my [leaderboard app](leaderboard.indspenceable.com), I needed to add a column:
+Just ran into a rather silly problem. I'm using Heroku to host my [leaderboard app](http://leaderboard.indspenceable.com), I needed to add a column:
 
     def change
       add_column :matches, :user_id, :integer
