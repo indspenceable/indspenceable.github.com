@@ -6,9 +6,9 @@ layout: nil
 
   <title>indspenceable</title>
   <link href="http://indspenceable.com/atom.xml" rel="self"/>
-  <link href="http://indspenceable.com/"/>
+  <link href="http://indspenceable.com/" rel="alternate" type="text/html" />
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://indspenceable.com/</id>
+  <id>http://www.indspenceable.com/</id>
   <author>
     <name>indspenceable</name>
     <email>daniel.patrick.spencer@gmail.com</email>
