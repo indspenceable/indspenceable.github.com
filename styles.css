@@ -48,18 +48,19 @@ table {
 }
 
 h1 {
-  font-size: 32px;
-  font-family: 'palatino';
+  font: 400 60px/1.5 'Playfair Display', Georgia, serif;
+  color: #40B6C7;
   margin-bottom: 10px;
 }
 h2{
   font-size: 24px;
-  font-family: 'palatino';
+  font: 400 24px/1.0 'Playfair Display', Georgia, serif;
   word-spacing: 0.25em;
 }
+/*
 h3 {
   font-size: 18px;
-  font-family: 'palatino';
+  font-family: edita, serif;
   letter-spacing: 1px;
   word-spacing: 1px;
   font-weight: bold;
@@ -68,22 +69,27 @@ h3 {
 h4 {
   font-size: 18px;
   font-style: italic;
-  font-family: 'palatino';
-}
+  font-family: edita, serif;
+}*/
+
+
 
 em {
   font-style: italic;
 }
 body{
-  background-color: #FAFAFF;
+  background-color: #EEE;
   color:#444;
 }
 a {
   color:#37A;
   text-decoration: none;
 }
+h1 a {
+  color: #40B6C7;
+}
 a:hover {
-  color: #900;
+  color: #40B6C7;
 } 
 .main {
   padding: 20px 0px;
@@ -94,9 +100,13 @@ p {
   line-height: 120%;
 }
 #content {
-  font-family: gill sans;
-  font-size: 16px;
+  font: 400 16px/1.6 'Muli', Verdana, Helvetica, sans-serif;
 }
+#content h3 {
+  text-align: center;
+  font: 400 18px/1.6 'Muli', Verdana, Helvetica, sans-serif;
+}
+
 @media handheld { 
   #column {
     width: 280px;
@@ -105,7 +115,7 @@ p {
 }
 @media screen {
   #column {
-    width: 720px;
+    width: 960px;
     margin: auto;
   }
 }
