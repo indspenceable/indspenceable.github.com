@@ -13,4 +13,4 @@ If you need to contact me you may do so by emailing to:
 
 _daniel.patrick.spencer_ -at- _gmail_ -dot- _com_
 
-My resume can be found [here](/Daniel_Spencer_Resume.pdf)
+My resume can be found [here](/Daniel_Spencer_Resume.pdf).
