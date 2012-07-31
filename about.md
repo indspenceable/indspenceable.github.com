@@ -13,4 +13,4 @@ _daniel.patrick.spencer_ -at- _gmail_ -dot- _com_
 
 My resume can be found [here](/Daniel_Spencer_Resume.pdf).
 
-View my code on [Github](https://github.com/indspenceable/)
+View my code on [Github](https://github.com/indspenceable/).
