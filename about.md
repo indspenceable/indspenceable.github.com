@@ -11,6 +11,4 @@ My name is Danny Spencer, and I am a software developer in San Fransico. I am in
 
 _daniel.patrick.spencer_ -at- _gmail_ -dot- _com_
 
-My resume can be found [here](/Daniel_Spencer_Resume.pdf).
-
-View my code on [GitHub](https://github.com/indspenceable/).
+View my [Resume](/Daniel_Spencer_Resume.pdf) or my [GitHub Profile](https://github.com/indspenceable/).
