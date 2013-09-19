@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -48,13 +48,13 @@ table {
 }
 
 h1 {
-  font: 400 60px/1.5 'Playfair Display', Georgia, serif;
+  font: 60px "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   color: #40B6C7;
   margin-bottom: 10px;
 }
 h2{
   font-size: 24px;
-  font: 400 24px/1.0 'Playfair Display', Georgia, serif;
+  font: 24px "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   word-spacing: 0.25em;
 }
 /*
@@ -74,7 +74,7 @@ h4 {
 
 li.inline {
   display: inline;
-  padding-right: 26px;
+  /*padding-right: 26px;*/
 }
 
 
@@ -86,19 +86,22 @@ em {
   font-style: italic;
 }
 body{
-  background-color: #EEE;
-  color:#444;
+  background-color: #FFF;
+  color:#203D65;
 }
 a {
-  color:#37A;
+  color:#B20000;
   text-decoration: none;
 }
 h1 a {
   color: #40B6C7;
 }
+h2 a {
+  color: #203D65;
+}
 a:hover {
-  color: #40B6C7;
-} 
+  color: #FF6666;
+}
 .main {
   padding: 20px 0px;
   margin: auto;
@@ -108,18 +111,16 @@ p {
   line-height: 120%;
 }
 #content {
-  font: 400 16px/1.6 'Muli', Verdana, Helvetica, sans-serif;
+  font: 18px Garamond, Georgia, serif;
 }
 #content h3 {
-  text-align: center;
-  font: 400 20px/1.6 'Playfair Display', Georgia, serif;
+  font: 20px "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 #content h4 {
-  text-align: center;
-  font: 400 18px/1.6 'Playfair Display', Georgia, serif;
+  font: 18px "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
-@media handheld { 
+@media handheld {
   #column {
     width: 280px;
     margin: auto;
