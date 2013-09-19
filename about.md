@@ -5,9 +5,11 @@ title: About
 
 ### About
 
-My name is Danny Spencer, and I am a software developer in San Fransico. I am interested in programming/technology, boardgames and video games, and music. I am originally from outside Boston and will defend the honor of the east coast if at all possible.
+My name is Danny Spencer, and I am a software developer in San Fransico. I am interested in programming/technology, boardgames and video games, and music.
 
-#### Contact 
+Recently, most of my work has been in Ruby (often on rails). I am currently changing the world at [Square](https://www.squareup.com).
+
+#### Contact
 
 _daniel.patrick.spencer_ -at- _gmail_ -dot- _com_
 
