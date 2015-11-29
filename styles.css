@@ -104,14 +104,14 @@ a:hover {
 }
 .main {
   padding: 20px 0px;
-  margin: auto;
+  margin: 20px;
 }
 p {
   margin: 16px 0px;
   line-height: 120%;
 }
 #content {
-  font: 18px Garamond, Georgia, serif;
+  font: 16px "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 #content h3 {
   font: 20px "Gill Sans", "Gill Sans MT", Calibri, sans-serif;

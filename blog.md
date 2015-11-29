@@ -1,12 +1,7 @@
 ---
 layout: default
-title: Archive
+title: Blog
 ---
-
-### Welcome to _indspenceable.com_
-
-More content coming soon...
-
 <ul>
 {% for post in site.posts %}
 <li>
