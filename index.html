@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Fonts, yo -->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+
+        <style type="text/css">
+            body{
+                margin: 2.5rem auto;
+                max-width:800px;
+                line-height:1.6;
+                font-size: calc(1em + 0.5vw);
+                font-family: 'Raleway', sans-serif;
+                color:#444;
+                padding:0 0.25em;
+            }
+
+            h1,h2,h3{
+                line-height: 1.2;
+                font-family: 'Lato', sans-serif;
+            }
+
+            body * + * {
+                margin-top: 1.5rem;
+            }
+
+            /*handle views*/
+            .view, .view:target ~ #me {
+                display: none;
+            }
+
+            #me, .view:target {
+                display: block;
+            }
+
+        </style>
+
+        <title>indspenceable</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>indspenceable</h1>
+            <aside><a href="#me">Me</a> <a href="#projects">Projects</a></aside>
+        </header>
+
+        <div id="content">
+
+            <div id="projects" class="view">
+                <h2>Projects</h2>
+
+                <p>Slack-Spoilers (<a href="https://github.com/indspenceable/slack-spoilers">Github</a>)
+                Ultra simple slash command for slack to hide potential spoilers when discussing games or movies.</p>
+
+                <p>Leaderboard (<a href="https://github.com/indspenceable/leaderboard">Github</a>)
+                An online leader board for board games. Meant just as a toy to keep track of records informally.</p>
+
+                <p>Asteroids (<a href="https://github.com/indspenceable/games">Github</a>)
+                Classic Asteroids, written in javascript using HTML5 canvas.</p>
+
+                <p>Whiteboard (<a href="https://github.com/indspenceable/Whiteboard">Github</a>)
+                Draw collaboratively online.</p>
+            </div>
+
+            <!-- Main needs to be the last child -->
+            <div id="me" class="view">
+                <h2>About me</h2>
+                <p>My name is Danny Spencer, and I am a software developer in New York City. I am an engineer at Dextro and in the past I’ve worked at Square. I like game design and music.</p>
+                <p>View my <a href="/Daniel_Spencer_Resume.pdf">Resume</a> or my code on <a href="https://github.com/indspenceable/">GitHub</a>, or <a href="mailto:daniel.patrick.spencer@gmail.com">Email me</a></p>
+            </div>
+        </div>
+    </body>
+</html>
